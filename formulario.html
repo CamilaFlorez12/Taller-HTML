@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <h1>Formulario de inscripción para competencia de atletismo en Bucaramanga</h1>
+    <h3>Realiza tu inscripcion a esta carrera de atletismo</h3>
+    <p>La Alcaldía de Bucaramanga está organizando una competencia de <strong>atletismo</strong>, si deseas participar podras inscribirte aqui</p>
 </head>
 <body>
-    <header>
-        <h1>Formulario de inscripción para competencia de atletismo en Bucaramanga</h1>
-        <h3>Realiza tu inscripcion a esta carrera de atletismo</h3>
-        <p>La Alcaldía de Bucaramanga está organizando una competencia de <strong>atletismo</strong>, si deseas participar podras inscribirte aqui</p>
-    </header>
-        <main>
+    <section id="Formulario">
+        <form action="participante" target="_blank"></form>
+
             <section>
             <h3>Informacion de la competencia</h3>
             <p><strong>Fecha:</strong>26 de Abril del 2025</p>
@@ -43,11 +43,9 @@
                 </tbody>   
             </table>
         </section>
-        </main>
         
     <section>
         <h2>Informacion de inscripcion del participante</h2>
-        <form action="Datos_participante" target="_blank">
             <fieldset>
                 <legend> Informacion del particante</legend>
                 <label for="nombre" >Nombre completo:</label>
@@ -102,15 +100,18 @@
                 <legend>Comentarios(opcional)</legend>
                 <textarea name="comentarios" id="comentarios" placeholder="Ingrese sus comentarios" ></textarea>
             </fieldset>
-                <button type="submit">Enviar Inscripcion</button>
-        </form>
+            <div>
+                <form class="form-button" target="_blank">
+                <button type="submit" >Enviar Inscripcion</button> 
+            </form>
+            </div>
+                
     </section>
+</body>
     <footer>
         <p>contactenos al telefono 3223589575</p>
         <small>Todos los derechos reservados</small>
         <p>2025</p>
     </footer>
 
-
-</body>
 </html>

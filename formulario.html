@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario de inscripción para competencia de atletismo en Bucaramanga</h1>
+        <h3>Realiza tu inscripcion a esta carrera de atletismo</h3>
+        <p>La Alcaldía de Bucaramanga está organizando una competencia de <strong>atletismo</strong>, si deseas participar podras inscribirte aqui</p>
+    </header>
+        <main>
+            <section>
+            <h3>Informacion de la competencia</h3>
+            <p><strong>Fecha:</strong>26 de Abril del 2025</p>
+            <p><strong>Hora:</strong>8:00 am</p>
+            <p><strong>Lugar:</strong>Parque del centro de Bucaramanga</p>
+            </section>
+        <section>
+        <h3>Premios:</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Puesto</th>
+                        <th>Premio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Primer lugar</td>
+                        <td>Medalla de oro y $600.000</td>
+                    </tr>
+                    <tr>
+                        <td>Segundo lugar</td>
+                        <td>Medalla de plata y $400.000</td>
+                    </tr>
+                    <tr>
+                        <td>Tercer lugar</td>
+                        <td>Medalla de plata y $200.000</td>
+                    </tr>
+                </tbody>   
+            </table>
+        </section>
+        </main>
+        
+    <section>
+        <h2>Informacion de inscripcion del participante</h2>
+        <form action="Datos_participante" target="_blank">
+            <fieldset>
+                <legend> Informacion del particante</legend>
+                <label for="nombre" >Nombre completo:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre completo"required>
+                <br>
+                <label for="documento"> Numero de documento de identidad:</label>
+                <input type="text" name="documento" id="documento" placeholder="Ingrese el numero de su documento" maxlength="10" minlength="10" required/>
+                <br>
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                <input type="date" name="fecha_nacimiento" id="fecha_nacimiento" required>
+            </fieldset>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="genero">Genero:</label>
+                <input type="radio" name="gen" id="femenino" value="f" required>
+                <label for="femenino">Femenino</label>
+                <input type="radio"name="gen" id="masculino" value="m" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="gen" id="no binario" value="nb" required>
+                <label for="no binario">No binario</label>
+                <input type="radio" name="gen" id="otro" value="o" required>
+                <label for="otro">Otro</label>
+                <br>
+                <label for="correo">Correo electronico:</label>
+                <input type="email" name="correo" id="correo"  placeholder="Ingrese su correo electronico" required>
+                <br>
+                <label for="telefono">Telefono:</label>
+                <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su numero telefonico" maxlength="10" minlength="10" required>
+                </fieldset>
+                <fieldset>
+                <legend>Informacion adicional</legend>
+                <label for="categoria"> categoria a la que pertenece:</label>
+                <select name="categoria" id="categoria" required>
+                <option value="">Seleccione una categoria</option>
+                <option value="Juvenil"> Juvenil</option>
+                <option value="Mayores">Mayores</option>
+                <option value="Master">Master</option>
+                </select>
+                <br>
+                <label for="Talla_camiseta">Talla de camiseta:</label>
+                <select name="Talla_camiseta" id="Talla_camiseta" required>
+                <option value="">Seleccione una talla</option>
+                <option value="XS">XS</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+                <option value="XXL">XXL</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios(opcional)</legend>
+                <textarea name="comentarios" id="comentarios" placeholder="Ingrese sus comentarios" ></textarea>
+            </fieldset>
+                <button type="submit">Enviar Inscripcion</button>
+        </form>
+    </section>
+    <footer>
+        <p>contactenos al telefono 3223589575</p>
+        <small>Todos los derechos reservados</small>
+        <p>2025</p>
+    </footer>
+
+
+</body>
+</html>

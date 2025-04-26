@@ -23,16 +23,15 @@ fiftieth time, to promote and keep the competition organized.
 
 
 #### 💡 Example of Use
-<img src="imagen/FORMULARIO">
+<img src="imagen/FORMULARIO.png">
+Enter all fiels as they are required, except of comments which are opcional.
 
 ### 🚀 How to Run
 1.Clone the repository:
 
-git clone https://github.com/CamilaFlorez12/proyectoCamila.git
-2.Run the main Python script:
+git clone https://https://github.com/CamilaFlorez12/Taller-HTML
 
-python main.py
-⚠️ Make sure you have Python installed on your system.
+2.Open the file in the web browser
 
 
 
@@ -45,4 +44,4 @@ _Camila Florez_
 
 ## 🔗 Repository
 This project is available under the following repository:
-https://github.com/CamilaFlorez12/proyectoCamila
+https://https://github.com/CamilaFlorez12/Taller-HTML
